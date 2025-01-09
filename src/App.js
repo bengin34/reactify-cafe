@@ -4,7 +4,7 @@ import FilterMenu from './components/FilterMenu';
 import AddToCart from './components/AddToCart';
 import SearchBar from './components/SearchBar';
 import SortMenu from './components/SortMenu';
-import AxiosMenu from './components/AxiosMenu';
+import BuggySortableMenu from './components/BuggySortableMenu';
 
 const App = () => {
     return (
@@ -15,7 +15,7 @@ const App = () => {
             <AddToCart />
             <SearchBar />
             <SortMenu />
-            <AxiosMenu />
+            <BuggySortableMenu />
         </div>
     );
 };

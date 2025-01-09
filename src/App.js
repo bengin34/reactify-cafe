@@ -4,6 +4,7 @@ import FilterMenu from './components/FilterMenu';
 import AddToCart from './components/AddToCart';
 import SearchBar from './components/SearchBar';
 import SortMenu from './components/SortMenu';
+import FetchMenu from './components/FetchMenu';
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
             <AddToCart />
             <SearchBar />
             <SortMenu />
+            <FetchMenu />
         </div>
     );
 };

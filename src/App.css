@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;  /* Sayfanın tamamını kapsasın */
+    margin: 0;     /* Margin sıfırlanır */
+}
+
+.vertical-navbar {
+    position: fixed; 
+    left: 0;
+    top: 0;
+    height: 100vh; 
+    width: 300px;
+    background-color: #734225; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    display: block;
+    z-index: 1000; /* Navbar'ı üstte tutmak için */
+}
+
+h1 {
+    position: relative;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+.container-app {
+    position: relative;
+    margin-left: 320px; /* Navbar genişliği kadar boşluk bırakıldı */
+    padding: 20px;
+    background-color: #f9f9f9;
+    background-image: url(https://cdn.pixabay.com/photo/2020/04/13/10/48/coffee-5037804_1280.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Yüksekliği tüm ekran kadar yapıyoruz */
+    overflow: auto; /* Kaydırılabilir yapıyoruz */
+    padding-left: 20px; /* İçeriğin sola kaymasını engellemek için */
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #934410;
+}
+
+.select {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+ul {
+padding-left:1rem;
+list-style: none; /* Noktaları kaldırır */
+padding-left: 0; 
+}
+li{
+ margin:0.5rem;
+}
+
+.search {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    color: #f0ecda;
+}
+.searchli {
+    font-size: 1.3rem;
+  /* Yarı şeffaf arka plan */
+    backdrop-filter: blur(10px); 
+    padding: 10px;
+    border-radius: 8px;
+}

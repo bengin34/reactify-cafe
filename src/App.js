@@ -1,12 +1,16 @@
-import React from 'react';
-import DisplayMenu from './components/DisplayMenu';
-
+import React from "react";
+import Navbar from "./components/Navbar";
+import "./App.css";
+import MenuSearch from "./components/SearchBar.jsx";
+import menu from "./mock/data";
 
 const App = () => {
     return (
         <div>
-            <h1>Reactify Cafe</h1>
-            <DisplayMenu />
+            <div className="container-app">
+                <Navbar />
+                <MenuSearch menu={menu} />
+            </div>
         </div>
     );
 };

@@ -1,6 +1,6 @@
 html, body {
-    height: 100%;  /* Sayfanın tamamını kapsasın */
-    margin: 0;     /* Margin sıfırlanır */
+    height: 100%; 
+    margin: 0;    
 }
 
 .vertical-navbar {
@@ -18,7 +18,7 @@ html, body {
     font-size: 1.3rem;
     text-decoration: none;
     display: block;
-    z-index: 1000; /* Navbar'ı üstte tutmak için */
+    z-index: 1000; 
 }
 
 h1 {
@@ -29,14 +29,14 @@ h1 {
 
 .container-app {
     position: relative;
-    margin-left: 320px; /* Navbar genişliği kadar boşluk bırakıldı */
+    margin-left: 320px; 
     padding: 20px;
     background-color: #f9f9f9;
     background-image: url(https://cdn.pixabay.com/photo/2020/04/13/10/48/coffee-5037804_1280.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    min-height: 100vh; /* Yüksekliği tüm ekran kadar yapıyoruz */
+    min-height: 100vh; 
     overflow: auto; /* Kaydırılabilir yapıyoruz */
     padding-left: 20px; /* İçeriğin sola kaymasını engellemek için */
 }
@@ -66,7 +66,7 @@ input[type="text"]:focus {
 
 ul {
 padding-left:1rem;
-list-style: none; /* Noktaları kaldırır */
+list-style: none;
 padding-left: 0; 
 }
 li{
